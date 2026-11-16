@@ -1,6 +1,6 @@
 # TradingView MCP Server on Railway
 
-[tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) (MIT) — an MCP server with 39 market-data tools (crypto, stock and futures screeners, technical analysis, Bollinger/candle scans, backtesting, sentiment) for Claude, Cursor and other MCP clients. Deploy it as a private remote MCP endpoint on Railway with one click.
+[tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) (MIT) — an MCP server with 37 market-data tools (crypto, stock and futures screeners, technical analysis, Bollinger/candle scans, backtesting, sentiment) for Claude, Cursor and other MCP clients. Deploy it as a private remote MCP endpoint on Railway with one click.
 
 > Independent open-source project, not affiliated with or endorsed by TradingView Inc. "TradingView" is a trademark of its owner. This template is not affiliated with the upstream author either.
 
