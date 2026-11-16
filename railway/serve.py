@@ -41,6 +41,10 @@ def _authorized(scope) -> bool:
 
 
 async def app(scope, receive, send):
+    if scope["type"] == "http" and scope.get("path") == "/health":
+        await send({"type": "http.response.start", "status": 200, "headers": [(b"content-type", b"application/json")]})
+        await send({"type": "http.response.body", "body": b'{"status":"ok"}'})
+        return
     if scope["type"] == "http" and not _authorized(scope):
         body = b'{"error":"unauthorized","hint":"send Authorization: Bearer <MCP_AUTH_TOKEN>"}'
         await send({"type": "http.response.start", "status": 401,
