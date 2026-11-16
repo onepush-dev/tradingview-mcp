@@ -4,7 +4,7 @@
 
 > Independent open-source project, not affiliated with or endorsed by TradingView Inc. "TradingView" is a trademark of its owner. This template is not affiliated with the upstream author either.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TEMPLATE_CODE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/79Oqng)
 
 ## What this template runs
 
